@@ -1,0 +1,22 @@
+title = "Huefighter config file"
+
+[Twitch]
+    ClientID = "Twitch bot client id"
+    Channel = "Channel code"
+    OAuth = "Bot OAUTH"
+    ChannelName = "Bot's Channel"
+    User = "Bot's Name"
+
+[IRC]
+    Server = "irc.chat.twitch.tv"
+    Port = 6667
+    Channel = "channel to connect to in irc without #"
+    Nick = "Bot's IRC nick"
+
+[Messages]
+    Messages = ["TASGiving benefits the National Alliance on Mental Illness (NAMI), the nation's largest grassroots mental health organization dedicated building better lives for the millions of Americans affected by mental illness. You can read more by going to nami.org, or donate by going to example.com.", 
+                "Thank you for joining us for TASGiving, benefiting the National Alliance on Mental Illness (NAMI). Interested in donating? visit example.com now! You can read more about NAMI at nami.org", 
+                "TASGiving is brought to you by the TASBot Lab and its community of diverse volunteers. Want to get involved? Join us at discord.tas.bot. Consider donating to TASGiving and the National Alliance on Mental Illness (NAMI) at example.com. You can read more about NAMI at nami.org", 
+                "The National Alliance on Mental Illness (NAMI) and The TASBot Lab has teamed up to bring you TASGiving - a Charity Marathon about including all kinds of talents and abilities from all over. You can read more about NAMI at nami.org, and donate at example.com.", 
+                "TASGiving is brought to you by The TASBot Lab community. Interested in learning more about NAMI? You can over at nami.org, or you can donate over at example.com"]
+
