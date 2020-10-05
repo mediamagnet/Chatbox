@@ -5,6 +5,7 @@
 *.so
 *.dylib
 config.toml
+old/config.toml
 
 # Test binary, built with `go test -c`
 *.test
