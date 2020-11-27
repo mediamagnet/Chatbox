@@ -42,7 +42,7 @@ func InitBot() {
 				client.sendMessage(getRandomMessage(client.config.Messages))
 			}
 		} else if strings.Contains(msg, "PING") {
-			client.sendMessage("PONG :tmi.twitch.tv")
+			client.sendPing("PONG :tmi.twitch.tv")
 		} else if strings.Contains(msg, "RECONNECT") {
 			client.socket.Close()
 			client.socket.Connect()

@@ -20,6 +20,9 @@ func (c *Client) sendMessage(msg string) {
 	message := fmt.Sprintf("PRIVMSG #%s :%s\r\n", c.config.Twitch.Channel, msg)
 	c.socket.SendText(message)
 }
+func (c *Client) sendPing(msg string) {
+	c.socket.SendText(msg)
+}
 
 func getRandomMessage(conf config.MessageConfiguration) string {
 	msgs := conf.Messages
