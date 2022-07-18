@@ -4,8 +4,8 @@
 *.dll
 *.so
 *.dylib
-config.toml
-old/config.toml
+*.toml
+
 
 # Test binary, built with `go test -c`
 *.test

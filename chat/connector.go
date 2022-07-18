@@ -38,7 +38,7 @@ func InitBot() {
 			fsplit := strings.Split(msg, "PRIVMSG")
 			colonSplit := strings.Split(fsplit[1], ":")
 
-			if strings.HasPrefix(colonSplit[1], "!donate") {
+			if strings.HasPrefix(colonSplit[1], "!triforce") {
 				client.sendMessage(getRandomMessage(client.config.Messages))
 			}
 		} else if strings.Contains(msg, "PING") {
